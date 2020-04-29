@@ -14,11 +14,7 @@ public interface UserDao {
 
     User getUserById(Long id);
 
-    public void update(User user);
-
-    void update(long userId, String name, int age, String password);
-
-    Role getRoleByName(String s);
+    void update(User user);
 
     User getUserByName(String s);
 
